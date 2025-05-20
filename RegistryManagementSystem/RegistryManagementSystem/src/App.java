@@ -26,9 +26,9 @@ public class App {
             //String delete_group_sql = "DELETE FROM teams WHERE id = 3 or id = 4";
 
 
-            //statement.executeUpdate(group_sql);
-            //statement.executeUpdate(participant_sql);
-            //statement.executeUpdate(facilitators_sql);
+            statement.executeUpdate(group_sql);
+            statement.executeUpdate(participant_sql);
+            statement.executeUpdate(facilitators_sql);
 
             System.out.println("Tables created successfully!");
 
